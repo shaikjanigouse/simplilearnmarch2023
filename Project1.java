@@ -34,8 +34,8 @@ public class Project1 {
 
 
                 case 2:
-                    Boolean temp = true;
-                    while(temp) {
+                    Boolean valid = true;
+                    while(valid) {
                         System.out.println("Option 1 :- Add a file in the existing Directory");
                         System.out.println("Option 2 :- Delete a file from the existing Directory.");
                         System.out.println("Option 3 :- Search a user specified file from the Directory.");
@@ -75,7 +75,7 @@ public class Project1 {
                                 } else {
                                     System.out.println("File does not exist");
                                 }
-                                /*folder2.delete();*/
+                                
                                 break;
 
 
@@ -95,7 +95,7 @@ public class Project1 {
 
                             case 4:
 
-                                temp = false;
+                                valid = false;
                                 break;
 
                             case 5:
